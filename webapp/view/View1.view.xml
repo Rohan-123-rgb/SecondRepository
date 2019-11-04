@@ -9,14 +9,14 @@ xmlns:feeds="sap.viz.ui5.controls.common.feeds">
 					<content>
 						<viz:VizFrame vizType="column">
 							<viz:dataset>
-								<data:FlattenedDataset data="/devlopers">
+								<data:FlattenedDataset data="{/devlopers}">
 									<data:dimensions>
-										<data:DimensionDefinition name="Dev ID" value="DevId">
+										<data:DimensionDefinition name="Dev ID" value="{DevId}">
 										
 										</data:DimensionDefinition>
 								    </data:dimensions>
 								    </data:measures>
-								    	<data:MeasureDefinition name="Issues Fix" value="IssuesFix">
+								    	<data:MeasureDefinition name="Issues Fix" value="{IssuesFix}">
 										
 										</data:MeasureDefinition>
 								    

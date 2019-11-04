@@ -61,7 +61,7 @@
 				"type": "sap.ui.model.json.JSONModel",
 				"settings": {},
 				"preload": false,
-				"uri": "./localData.Devlopers.json"
+				"uri": "./localData/Devlopers.json"
 			}
 		},
 		"resources": {
