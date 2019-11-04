@@ -15,7 +15,7 @@ xmlns:feeds="sap.viz.ui5.controls.common.feeds">
 										
 										</data:DimensionDefinition>
 								    </data:dimensions>
-								    </data:measures>
+								    <data:measures>
 								    	<data:MeasureDefinition name="Issues Fix" value="{IssuesFix}">
 										
 										</data:MeasureDefinition>
